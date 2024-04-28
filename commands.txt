@@ -1,0 +1,13 @@
+open mp how to run:
+g++ -fopenmp output prc.cpp
+./output
+
+
+cuda how to run:
+nvcc -o output prg.cu
+./output.out
+
+OR
+
+nvcc prg.cu
+./a.out  ->(bydefault file will be stored by this name)
